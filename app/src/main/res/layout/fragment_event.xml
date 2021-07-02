@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".eventFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:id="@+id/eventTable">
+
+        <TableRow
+            android:id="@+id/artistRow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:weightSum="1.0">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:paddingBottom="20dp"
+                android:text="Artist(s)/Teams"
+                android:textColor="#737373"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:maxWidth="120dp"/>
+
+            <TextView
+                android:id="@+id/artistList"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="TextView"
+                android:textColor="#7D7D7D"
+                android:textSize="16dp"
+                android:maxWidth="120dp"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/venueRow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:weightSum="1.0">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:paddingBottom="20dp"
+                android:text="Venue"
+                android:textColor="#737373"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:maxWidth="120dp"/>
+
+            <TextView
+                android:id="@+id/venueDetail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="TextView"
+                android:textColor="#7D7D7D"
+                android:textSize="16dp"
+                android:maxWidth="120dp"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/dateRow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:weightSum="1.0">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:paddingBottom="20dp"
+                android:text="Date"
+                android:textColor="#737373"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:maxWidth="120dp"/>
+
+            <TextView
+                android:id="@+id/dateDetail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="TextView"
+                android:textColor="#7D7D7D"
+                android:textSize="16dp"
+                android:maxWidth="120dp"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/categoryRow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:weightSum="1.0">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:paddingBottom="20dp"
+                android:text="Category"
+                android:textColor="#737373"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:maxWidth="120dp"/>
+
+            <TextView
+                android:id="@+id/categoryDetail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="TextView"
+                android:textColor="#7D7D7D"
+                android:textSize="16dp"
+                android:maxWidth="120dp"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/priceRow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:weightSum="1.0">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:paddingBottom="20dp"
+                android:text="Price Range"
+                android:textColor="#737373"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:maxWidth="120dp"/>
+
+            <TextView
+                android:id="@+id/priceDetail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="TextView"
+                android:textColor="#7D7D7D"
+                android:textSize="16dp"
+                android:maxWidth="120dp"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/statusRow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:weightSum="1.0">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:paddingBottom="20dp"
+                android:text="Ticket Status"
+                android:textColor="#737373"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:maxWidth="120dp"/>
+
+            <TextView
+                android:id="@+id/statusDetail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="TextView"
+                android:textColor="#7D7D7D"
+                android:textSize="16dp"
+                android:maxWidth="120dp"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/buyRow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:weightSum="1.0">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:paddingBottom="20dp"
+                android:text="Buy Ticket At"
+                android:textColor="#737373"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:maxWidth="120dp"/>
+
+            <TextView
+                android:id="@+id/buyDetail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="Ticketmaster"
+                android:textColor="#7D7D7D"
+                android:linksClickable="true"
+                android:textSize="16dp"
+                android:maxWidth="120dp"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/mapRow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:weightSum="1.0">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:paddingBottom="20dp"
+                android:text="Venue"
+                android:textColor="#737373"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:maxWidth="120dp"/>
+
+            <TextView
+                android:id="@+id/mapDetail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="View Seat Map Here"
+                android:textColor="#7D7D7D"
+                android:linksClickable="true"
+                android:textSize="16dp"
+                android:maxWidth="120dp"/>
+        </TableRow>
+
+    </TableLayout>
+
+</FrameLayout>

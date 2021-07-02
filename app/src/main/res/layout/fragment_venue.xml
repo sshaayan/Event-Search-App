@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".venueFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableLayout
+            android:id="@+id/venueTable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <TableRow
+                android:id="@+id/nameRow"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:weightSum="1.0">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:maxWidth="120dp"
+                    android:paddingBottom="20dp"
+                    android:text="Name"
+                    android:textColor="#737373"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/nameDetail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:maxWidth="120dp"
+                    android:text="TextView"
+                    android:textColor="#7D7D7D"
+                    android:textSize="16dp" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/addrRow"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:weightSum="1.0">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:maxWidth="120dp"
+                    android:paddingBottom="20dp"
+                    android:text="Address"
+                    android:textColor="#737373"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/addrDetail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:maxWidth="120dp"
+                    android:text="TextView"
+                    android:textColor="#7D7D7D"
+                    android:textSize="16dp" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/cityRow"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:weightSum="1.0">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:maxWidth="120dp"
+                    android:paddingBottom="20dp"
+                    android:text="City"
+                    android:textColor="#737373"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/cityDetail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:maxWidth="120dp"
+                    android:text="TextView"
+                    android:textColor="#7D7D7D"
+                    android:textSize="16dp" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/phoneRow"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:weightSum="1.0">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:maxWidth="120dp"
+                    android:paddingBottom="20dp"
+                    android:text="Phone Number"
+                    android:textColor="#737373"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/phoneDetail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:maxWidth="120dp"
+                    android:text="TextView"
+                    android:textColor="#7D7D7D"
+                    android:textSize="16dp" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/hoursRow"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:weightSum="1.0">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:maxWidth="120dp"
+                    android:paddingBottom="20dp"
+                    android:text="Open Hours"
+                    android:textColor="#737373"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/hoursDetail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:maxWidth="120dp"
+                    android:text="TextView"
+                    android:textColor="#7D7D7D"
+                    android:textSize="16dp" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/genRow"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:weightSum="1.0">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:maxWidth="120dp"
+                    android:paddingBottom="20dp"
+                    android:text="General Rule"
+                    android:textColor="#737373"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/genDetail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:maxWidth="120dp"
+                    android:text="TextView"
+                    android:textColor="#7D7D7D"
+                    android:textSize="16dp" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/childRow"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:weightSum="1.0">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:maxWidth="120dp"
+                    android:paddingBottom="20dp"
+                    android:text="Child Rule"
+                    android:textColor="#737373"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/childDetail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:maxWidth="120dp"
+                    android:text="TextView"
+                    android:textColor="#7D7D7D"
+                    android:textSize="16dp" />
+            </TableRow>
+
+        </TableLayout>
+    </ScrollView>
+
+</FrameLayout>
